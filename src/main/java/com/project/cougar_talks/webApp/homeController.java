@@ -36,6 +36,16 @@ public class homeController {
 
         return "welcome"; //view
     }
+
+    @GetMapping("/signin")
+    public String signInPage(
+            @RequestParam(name = "name", required = false, defaultValue = "")
+                    String name, Model model) {
+
+        model.addAttribute("message", name);
+
+        return "signin"; //view
+    }
     // inject via application.properties
     /*@Value("${home.name}")
 
