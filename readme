@@ -10,4 +10,4 @@ mysql -u root -p
 - Puis vous créez la database forum
 CREATE DATABASE forum
 
-Ensuite vous pouvez lancez l'application
+Ensuite vous pouvez importer le projet avec le fichier build.gradle et lancer l'application
