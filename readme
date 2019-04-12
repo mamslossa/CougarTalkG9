@@ -1,0 +1,13 @@
+- Installer le openjdk11 (j'suis sur manjaro du coup je l'ai juste pacman)
+- Installer mariadb (de meme)
+    Pour terminer l'installation de mariadb executez les commandes suivantes :
+    sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+    sudo systemctl start mariadb
+    mysql_secure_installation
+    Mettez root en mdp pour l'user root je l'ai configuré comme ca dans l'application Spring
+- Ensuite vous vous loggez sur le server mysql
+mysql -u root -p
+- Puis vous créez la database forum
+CREATE DATABASE forum
+
+Ensuite vous pouvez lancez l'application
