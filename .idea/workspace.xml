@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45a22c13-2580-4c5f-895e-f59d062b2376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cougartalk-f9536-firebase-adminsdk-5k9js-98de235d79.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/ForumApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/configuration/AdditionalLoginConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/configuration/SecurityConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/AnswersController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/ProfileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/RegisterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/TopicController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/TopicsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/entities/Answer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/entities/Topic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/entities/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/repositories/AnswerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/repositories/TopicRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/repositories/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/answers.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/answers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/topics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/ForumApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/ForumApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/AnswersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/AnswersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/ProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/TopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/TopicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/TopicsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/TopicsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Topic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/AnswerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/AnswerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/TopicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/TopicRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/answers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/answers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/topics.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -70,90 +25,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/answers.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="106" selection-start-line="11" selection-start-column="106" selection-end-line="11" selection-end-column="106" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Answer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/topics.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/topic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Topic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/TopicRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="60">
+              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/AnswerRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/ForumApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="143">
+              <caret line="29" column="149" lean-forward="true" selection-start-line="29" selection-start-column="149" selection-end-line="29" selection-end-column="149" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -205,7 +92,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Answer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Topic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/ForumApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/AnswersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/TopicController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/ProfileController.java" />
@@ -213,10 +99,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/topics.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/topic.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/answers.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/TopicRepository.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/AnswerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/ForumApplication.java" />
       </list>
     </option>
   </component>
@@ -493,7 +380,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24691000" />
+    <option name="totallyTimeSpent" value="25264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,16 +407,16 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32893288" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49944934" weight="0.39933994" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49944934" visible="true" weight="0.39933994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944934" weight="0.32893288" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32893288" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32893288" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893288" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.27722773" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005507" side_tool="true" weight="0.39933994" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32893288" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32893288" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32893288" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -549,6 +436,48 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27588105" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Azure Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32893288" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49944934" visible="true" weight="0.39933994" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944934" weight="0.32893288" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32893288" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32893288" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893288" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005507" side_tool="true" weight="0.39933994" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32893288" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32893288" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="16" />
+      <window_info anchor="bottom" id="Azure Activity Log" order="17" />
+      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="18" />
+      <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="19" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -675,22 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/ForumApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1720#1721#0" expanded="true" />
-            <element signature="e#1763#1764#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1983#1984#0" expanded="true" />
-            <element signature="e#2027#2028#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/TopicsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -771,24 +684,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/topic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/topics.html">
+    <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Answer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="315">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
@@ -802,6 +704,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/topics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -812,20 +735,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/AnswerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
+        <state>
+          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -836,17 +759,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="60">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/AnswerRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/ForumApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="143">
+          <caret line="29" column="149" lean-forward="true" selection-start-line="29" selection-start-column="149" selection-end-line="29" selection-end-column="149" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
