@@ -27,7 +27,7 @@ public class TopicsController {
 
     @GetMapping("topics")
     public String displayAllTopics(Model model) {
-        List<Topic> topics = topicRepository.findAll(new Sort(Sort.Direction.DESC, "createdDate"));
+        List<Topic> topics = topicRepository.findAll();
         String header = setHeader("all");
         model.addAttribute("topics", topics);
         model.addAttribute("header", header);
@@ -47,7 +47,7 @@ public class TopicsController {
 
     @GetMapping("topics/user/{id}")
     public String displayTopicsByUser(@PathVariable String id, Model model) {
-        List<Topic> topics = topicRepository.findTopicsByUser_IdOrderByCreatedDateDesc(Long.valueOf(id));
+        List<Topic> topics = topicRepository.findTopicsByUser_IdOrderByCreatedDateDesc(id);
         String header = setHeader("user");
         model.addAttribute("topics", topics);
         model.addAttribute("header", header);

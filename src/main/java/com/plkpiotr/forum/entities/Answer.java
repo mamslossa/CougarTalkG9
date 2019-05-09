@@ -1,6 +1,7 @@
 package com.plkpiotr.forum.entities;
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,105 +14,76 @@ import javax.persistence.Table;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 
-@Entity
-@EntityListeners(AuditingEntityListener.class)
-@Table(name = "answer")
 public class Answer {
 
-    @Id
-    @GeneratedValue
-    private Long id;
+    private static final String DATE_FORMATTER= "yyyy-MM-dd HH:mm:ss";
+    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DATE_FORMATTER);
 
-    @Column(nullable = false, length = 1024)
-    private String content;
-
-    @Column(nullable = false)
-    private boolean useful;
-
-    private LocalDateTime createdDate;
-
-    @Column(length = 1024)
-    private String code;
-
-    @ManyToOne
-    @JoinColumn(name = "id_user")
-    private User user;
-
-    @ManyToOne
-    @JoinColumn(name = "id_topic")
-    private Topic topic;
-
-    public Long getId() {
-        return id;
+    public Answer(Map<String, Object> data) {
+        if (data == null)
+            _data = new HashMap<String, Object>();
+        else
+            _data = data;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    private Map<String, Object> _data;
+
+    public String getId() { if (_data.containsKey("id")) return _data.get("id").toString(); return null; }
+
+    public void setRealId(String id) {
+        _data.put("id", id);
     }
 
-    public String getContent() {
-        return content;
-    }
+    public String getContent() { if (_data.containsKey("content")) return _data.get("content").toString(); return null; }
 
     public void setContent(String content) {
-        this.content = content;
+        _data.put("content", content);
     }
 
     public boolean isUseful() {
-        return useful;
-    }
+        if (_data.containsKey("useful")) return true; return false; }
 
     public void setUseful(boolean useful) {
-        this.useful = useful;
+        _data.put("useful", useful);
     }
 
-    public LocalDateTime getCreatedDate() {
-        return createdDate;
-    }
+    public LocalDateTime getCreatedDate() { if (_data.containsKey("createdDate")) return LocalDateTime.parse(_data.get("createdDate").toString(), formatter); return null; }
 
-    public void setCreatedDate(LocalDateTime createdDate) {
-        this.createdDate = createdDate;
-    }
+    public void setCreatedDate(LocalDateTime createdDate) { _data.put("createdDate", createdDate.toString()); }
 
-    public Optional getCode() {
+/*    public Optional getCode() {
         return Optional.ofNullable(code);
     }
 
     public void setCode(String code) {
         this.code = code;
+    } */
+
+    public String getUserId() { if (_data.containsKey("userid")) return _data.get("userid").toString(); return null; }
+
+    public void setUserId(String userid) {
+        _data.put("userid", userid);
     }
 
-    public User getUser() {
-        return user;
-    }
+    public String getTopicId() { if (_data.containsKey("topicid")) return _data.get("topicid").toString(); return null; }
 
-    public void setUser(User user) {
-        this.user = user;
-    }
+    public void setTopicId(String topicId) { _data.put("topicid", topicId); }
 
-    public Topic getTopic() {
-        return topic;
-    }
+    public String displayParsedCreatedDate() { if (_data.containsKey("createdDate")) return _data.get("createdDate").toString(); return null; }
 
-    public void setTopic(Topic topic) {
-        this.topic = topic;
-    }
-
-    public String displayParsedCreatedDate() {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm - dd.MM.yyyy");
-        return this.createdDate.format(formatter);
-    }
-
-    public String displayCode() {
+/*    public String displayCode() {
         if (Optional.ofNullable(code).isPresent())
             return Optional.ofNullable(code).get();
         else
             return "";
-    }
+    } */
 
     public String displayBeginning() {
-        return (this.content.length() < 32) ? this.content.concat("...") : this.content.substring(0, 30).concat("...");
+        String content = getContent();
+        return (content.length() < 32) ? content.concat("...") : content.substring(0, 30).concat("...");
     }
 }

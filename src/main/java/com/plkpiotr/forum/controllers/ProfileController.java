@@ -45,9 +45,9 @@ public class ProfileController {
         User user = userRepository.getUserByUsername(username);
         Long points = userRepository.getPoints(user.getId());
 
-        Long numberOfTopics = topicRepository.countTopicsByUser_Id(user.getId());
-        Long numberOfAnswers = answerRepository.countAnswersByUser_Id(user.getId());
-        Long numberOfHelped = answerRepository.countAnswersByUser_IdAndUseful(user.getId(), true);
+        int numberOfTopics = topicRepository.countTopicsByUser_Id(user.getId());
+        int numberOfAnswers = answerRepository.countAnswersByUser_Id(user.getId());
+        int numberOfHelped = answerRepository.countAnswersByUser_IdAndUseful(user.getId(), true);
 
         model.addAttribute("user", user);
         model.addAttribute("points", points);
@@ -58,13 +58,13 @@ public class ProfileController {
     }
 
     @GetMapping("profile/{id}")
-    public String displayProfileById(@PathVariable Long id, Model model) {
+    public String displayProfileById(@PathVariable String id, Model model) {
         User user = userRepository.getUserById(id);
         Long points = userRepository.getPoints(user.getId());
 
-        Long numberOfTopics = topicRepository.countTopicsByUser_Id(id);
-        Long numberOfAnswers = answerRepository.countAnswersByUser_Id(id);
-        Long numberOfHelped = answerRepository.countAnswersByUser_IdAndUseful(id, true);
+        int numberOfTopics = topicRepository.countTopicsByUser_Id(id);
+        int numberOfAnswers = answerRepository.countAnswersByUser_Id(id);
+        int numberOfHelped = answerRepository.countAnswersByUser_IdAndUseful(id, true);
 
         model.addAttribute("user", user);
         model.addAttribute("points", points);
@@ -79,7 +79,7 @@ public class ProfileController {
     public View addTask(@RequestParam("category") String category, @RequestParam("title") String title,
                         @RequestParam("content") String content, @RequestParam("code") String code,
                         @RequestParam("id_user") String id_user, HttpServletRequest request) {
-        Topic topic = new Topic();
+        Topic topic = new Topic(null);
         topic.setCategory(category);
 
         // I know that it can be blank field, but I did it on purpose to find out about Optionals:
@@ -91,7 +91,7 @@ public class ProfileController {
         topic.setContent(content);
         topic.setTitle(title);
         topic.setCreatedDate(LocalDateTime.now());
-        topic.setUser(userRepository.getUserById(Long.parseLong(id_user)));
+        topic.setUserId(userRepository.getUserById(id_user));
 
         topicRepository.save(topic);
         String contextPath = request.getContextPath();

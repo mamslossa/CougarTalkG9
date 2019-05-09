@@ -1,66 +1,50 @@
 package com.plkpiotr.forum.entities;
 
-import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.EntityListeners;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
-
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
-@Entity
-@EntityListeners(AuditingEntityListener.class)
-@Table(name = "user")
 public class User implements UserDetails {
 
-    @Id
-    @GeneratedValue
-    private Long id;
+    private static final String DATE_FORMATTER= "yyyy-MM-dd HH:mm:ss";
+    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DATE_FORMATTER);
 
-    @Column(nullable = false, length = 10)
-    private String username;
+    public User(Map<String, Object> data) {
+        if (data == null)
+            _data = new HashMap<String, Object>();
+        else
+            _data = data;
+    }
 
-    @Column(nullable = false, length = 60)
-    private String password;
-
-    @Column(length = 16)
-    private String introduction;
 
     private LocalDateTime createdDate;
 
-    @OneToMany(mappedBy = "user")
-    private List<Topic> topics;
+    @Transient
+    private Map<String, Object> _data;
 
-    @OneToMany(mappedBy = "user")
-    private List<Answer> answers;
-
-    public Long getId() {
-        return id;
+    public void setRealId(String id) {
+        _data.put("id", id);
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public String getId() {
+        return _data.get("id").toString();
     }
+
 
     @Override
     public String getUsername() {
-        return username;
+        if (_data.containsKey("username"))
+            return _data.get("username").toString();
+        return null;
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        _data.put("username", username);
     }
 
     @Override
@@ -69,7 +53,9 @@ public class User implements UserDetails {
     }
 
     public String getPassword() {
-        return password;
+        if (_data.containsKey("password"))
+            return _data.get("password").toString();
+        return null;
     }
 
     @Override
@@ -93,47 +79,18 @@ public class User implements UserDetails {
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        _data.put("password", password);
     }
 
-    public Optional getIntroduction() {
-        return Optional.ofNullable(introduction);
-    }
+    public String getIntroduction() { if (_data.containsKey("introduction")) return _data.get("introduction").toString();return null; }
 
     public void setIntroduction(String introduction) {
-        this.introduction = introduction;
+        _data.put("introduction", introduction);
     }
 
-    public LocalDateTime getCreatedDate() {
-        return createdDate;
-    }
+    public LocalDateTime getCreatedDate() { if (_data.containsKey("createdDate")) return LocalDateTime.parse(_data.get("createdDate").toString(), formatter); return null; }
 
-    public void setCreatedDate(LocalDateTime createdDate) {
-        this.createdDate = createdDate;
-    }
-
-    public List<Topic> getTopics() {
-        return topics;
-    }
-
-    public void setTopics(List<Topic> topics) {
-        this.topics = topics;
-    }
-
-    public List<Answer> getAnswers() {
-        return answers;
-    }
-
-    public void setAnswers(List<Answer> answers) {
-        this.answers = answers;
-    }
-
-    public String displayContentOfOptional() {
-        if (Optional.ofNullable(introduction).isPresent())
-            return Optional.ofNullable(introduction).get();
-        else
-            return "";
-    }
+    public void setCreatedDate(LocalDateTime createdDate) { _data.put("createdDate", createdDate.toString()); }
 
     public String displayParsedDate() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");

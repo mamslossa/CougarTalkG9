@@ -27,7 +27,7 @@
                                 <td th:text="${answer.getTopic().getTitle()}">Topic's title</td>
                                 <td th:text="${answer.displayBeginning()}">Topic's title</td>
                                 <td>
-                                    <a th:href="@{'/topic/' + ${answer.getTopic().getId()}}" class="btn btn-floating pulse">
+                                    <a th:href="@{'/topic/' + ${answer.getTopicId()}}" class="btn btn-floating pulse">
                                         <i class="material-icons">arrow_forward</i>
                                     </a>
                                 </td>

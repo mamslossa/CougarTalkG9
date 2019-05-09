@@ -29,6 +29,8 @@ public class RegisterController {
     @Autowired
     public RegisterController(UserRepository userRepository, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
+        userRepository.getUserByUsername("toto");
+        userRepository.getUserById("CNJTA8R8dAB0eOvgRR7j");
         this.passwordEncoder = passwordEncoder;
     }
 
@@ -46,12 +48,12 @@ public class RegisterController {
     public View registerUser(@RequestParam("username") String username, @RequestParam("password") String password,
                              @RequestParam("introduction") String introduction, HttpServletRequest request) {
         String contextPath = request.getContextPath();
-        User user = new User();
+        User user = new User(null);
         if (userRepository.getUserByUsername(username) == null) {
             user.setUsername(username);
             // I know that it can be blank field, but I did it on purpose to find out about Optionals:
             if (Objects.equals(introduction, ""))
-                user.setIntroduction(null);
+                user.setIntroduction("Your introduction");
             else
                 user.setIntroduction(introduction);
             user.setPassword(password);

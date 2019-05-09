@@ -1,91 +1,67 @@
 package com.plkpiotr.forum.entities;
 
-import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+import org.springframework.stereotype.Component;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.EntityListeners;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 
-@Entity
-@EntityListeners(AuditingEntityListener.class)
-@Table(name = "topic")
 public class Topic {
 
-    @Id
-    @GeneratedValue
-    private Long id;
+    private static final String DATE_FORMATTER= "yyyy-MM-dd HH:mm:ss";
+    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DATE_FORMATTER);
 
-    @Column(nullable = false, length = 32)
-    private String title;
+    public Topic(Map<String, Object> data) {
+        if (data == null)
+            _data = new HashMap<String, Object>();
+        else
+            _data = data;
+    }
 
-    @Column(nullable = false, length = 1024)
-    private String content;
-
-    @Column(nullable = false, length = 16)
-    private String category;
-
-    private LocalDateTime createdDate;
+    private Map<String, Object> _data;
 
     @Column(length = 1024)
     private String code;
 
-    @ManyToOne
-    @JoinColumn(name = "id_user")
-    private User user;
-
-    @OneToMany(mappedBy = "topic")
-    private List<Answer> answers;
-
-    public Long getId() {
-        return id;
+    public void setRealId(String id) {
+        _data.put("id", id);
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public String getId() {
+        if (_data.containsKey("id"))
+            return _data.get("id").toString();
+        return null;
     }
 
     public String getTitle() {
-        return title;
+        if (_data.containsKey("title"))
+            return _data.get("title").toString();
+        return null;
     }
 
     public void setTitle(String title) {
-        this.title = title;
+        _data.put("title", title);
     }
 
-    public String getContent() {
-        return content;
-    }
+    public String getContent() { if (_data.containsKey("content")) return _data.get("content").toString(); return null; }
 
     public void setContent(String content) {
-        this.content = content;
+        _data.put("content", content);
     }
 
-    public String getCategory() {
-        return category;
-    }
+    public String getCategory() { if (_data.containsKey("category")) return _data.get("category").toString(); return null;  }
 
     public void setCategory(String category) {
-        this.category = category;
+        _data.put("category", category);
     }
 
-    public LocalDateTime getCreatedDate() {
-        return createdDate;
-    }
+    public LocalDateTime getCreatedDate() { if (_data.containsKey("createdDate")) return LocalDateTime.parse(_data.get("createdDate").toString(), formatter); return null; }
 
-    public void setCreatedDate(LocalDateTime createdDate) {
-        this.createdDate = createdDate;
-    }
+    public void setCreatedDate(LocalDateTime createdDate) { _data.put("createdDate", createdDate.toString()); }
 
     public Optional getCode() {
         return Optional.ofNullable(code);
@@ -95,26 +71,13 @@ public class Topic {
         this.code = code;
     }
 
-    public User getUser() {
-        return user;
+    public String getUserId() { if (_data.containsKey("userid")) return _data.get("userid").toString(); return null; }
+
+    public void setUserId(User userid) {
+        _data.put("userid", userid);
     }
 
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    public List<Answer> getAnswers() {
-        return answers;
-    }
-
-    public void setAnswers(List<Answer> answers) {
-        this.answers = answers;
-    }
-
-    public String displayParsedCreatedDate() {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm - dd.MM.yyyy");
-        return this.createdDate.format(formatter);
-    }
+    public String displayParsedCreatedDate() { if (_data.containsKey("createdDate")) return _data.get("createdDate").toString(); return null; }
 
     public String displayCode() {
         if (Optional.ofNullable(code).isPresent())
