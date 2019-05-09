@@ -69,6 +69,7 @@ public class UserRepository  {
         if (user.getIntroduction() != null)
             docData.put("introduction", user.getIntroduction());
         docData.put("password", user.getPassword());
+        docData.put("createdDate", user.getCreatedDate());
 
         firestore.collection("user").add(docData);
 

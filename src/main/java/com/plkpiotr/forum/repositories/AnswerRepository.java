@@ -4,6 +4,7 @@ import com.google.cloud.firestore.FieldPath;
 import com.google.cloud.firestore.Firestore;
 import com.google.cloud.firestore.QueryDocumentSnapshot;
 import com.plkpiotr.forum.entities.Answer;
+import com.plkpiotr.forum.entities.Topic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Component;
@@ -60,7 +61,7 @@ public class AnswerRepository {
         return 0;
     }
 
-    public int countAnswersByTopic_Id(Long id) {
+    public int countAnswersByTopic_Id(String id) {
         try {
             int size = firestore.collection("answer").whereEqualTo("topicid", id).get().get().getDocuments().size();
 
@@ -78,10 +79,14 @@ public class AnswerRepository {
 
             List<QueryDocumentSnapshot> documents = firestore.collection("answer").whereEqualTo("userid", id).get().get().getDocuments();
             for (QueryDocumentSnapshot document : documents) {
-                list.add(new Answer(document.getData()));
+                Answer newAnswer = new Answer(document.getData());
+
+                newAnswer.setRealId(document.getId());
+                list.add(newAnswer);
             }
             return list;
         } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
         return null;
     }
@@ -93,25 +98,33 @@ public class AnswerRepository {
             List<QueryDocumentSnapshot> documents = firestore.collection("answer").whereEqualTo("userid", id).whereEqualTo("useful", useful)
                     .get().get().getDocuments();
             for (QueryDocumentSnapshot document : documents) {
-                list.add(new Answer(document.getData()));
+                Answer newAnswer = new Answer(document.getData());
+
+                newAnswer.setRealId(document.getId());
+                list.add(newAnswer);
             }
             return list;
         } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
         return null;
     }
 
-    public List<Answer> findAnswerByTopic_Id(Long id) {
+    public List<Answer> findAnswerByTopic_Id(String id) {
         try {
             List<Answer> list = new Vector<>();
 
             List<QueryDocumentSnapshot> documents = firestore.collection("answer").whereEqualTo("topicid", id)
                     .get().get().getDocuments();
             for (QueryDocumentSnapshot document : documents) {
-                list.add(new Answer(document.getData()));
+                Answer newAnswer = new Answer(document.getData());
+
+                newAnswer.setRealId(document.getId());
+                list.add(newAnswer);
             }
             return list;
         } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
         return null;
     }
@@ -121,19 +134,13 @@ public class AnswerRepository {
         // Create a Map to store the data we want to set
         Map<String, Object> docData = new HashMap<>();
 
-        if (answer.getContent() != null)
-            docData.put("content", answer.getContent());
-
-        if (answer.getCreatedDate() != null)
-            docData.put("createdDate", answer.getCreatedDate());
-
-        if (answer.getTopicId() != null)
-            docData.put("topicid", answer.getTopicId());
-
-        if (answer.getUserId() != null)
-            docData.put("userid", answer.getUserId());
-
+        docData.put("content", answer.getContent());
+        docData.put("createdDate", answer.getCreatedDate());
+        docData.put("topicid", answer.getTopicId());
+        docData.put("userid", answer.getUserId());
         docData.put("useful", answer.isUseful());
+        docData.put("username", answer.getUsername());
+        docData.put("topictitle", answer.getTopicTitle());
 
         firestore.collection("answer").add(docData);
 

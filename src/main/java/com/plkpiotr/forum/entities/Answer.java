@@ -20,9 +20,6 @@ import java.util.Optional;
 
 public class Answer {
 
-    private static final String DATE_FORMATTER= "yyyy-MM-dd HH:mm:ss";
-    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DATE_FORMATTER);
-
     public Answer(Map<String, Object> data) {
         if (data == null)
             _data = new HashMap<String, Object>();
@@ -45,23 +42,15 @@ public class Answer {
     }
 
     public boolean isUseful() {
-        if (_data.containsKey("useful")) return true; return false; }
+        if (_data.containsKey("useful")) return Boolean.valueOf(_data.get("useful").toString()); return false; }
 
     public void setUseful(boolean useful) {
         _data.put("useful", useful);
     }
 
-    public LocalDateTime getCreatedDate() { if (_data.containsKey("createdDate")) return LocalDateTime.parse(_data.get("createdDate").toString(), formatter); return null; }
+    public String getCreatedDate() { if (_data.containsKey("createdDate")) return _data.get("createdDate").toString(); return null; }
 
-    public void setCreatedDate(LocalDateTime createdDate) { _data.put("createdDate", createdDate.toString()); }
-
-/*    public Optional getCode() {
-        return Optional.ofNullable(code);
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    } */
+    public void setCreatedDate(String createdDate) { _data.put("createdDate", createdDate); }
 
     public String getUserId() { if (_data.containsKey("userid")) return _data.get("userid").toString(); return null; }
 
@@ -69,18 +58,21 @@ public class Answer {
         _data.put("userid", userid);
     }
 
+    public String getUsername() { if (_data.containsKey("username")) return _data.get("username").toString(); return null; }
+
+    public void setUsername(String username) {
+        _data.put("username", username);
+    }
+
     public String getTopicId() { if (_data.containsKey("topicid")) return _data.get("topicid").toString(); return null; }
 
     public void setTopicId(String topicId) { _data.put("topicid", topicId); }
 
-    public String displayParsedCreatedDate() { if (_data.containsKey("createdDate")) return _data.get("createdDate").toString(); return null; }
+    public String getTopicTitle() { if (_data.containsKey("topictitle")) return _data.get("topictitle").toString(); return null; }
 
-/*    public String displayCode() {
-        if (Optional.ofNullable(code).isPresent())
-            return Optional.ofNullable(code).get();
-        else
-            return "";
-    } */
+    public void setTopicTitle(String topicTitle) { _data.put("topictitle", topicTitle); }
+
+    public String displayParsedCreatedDate() { if (_data.containsKey("createdDate")) return _data.get("createdDate").toString(); return null; }
 
     public String displayBeginning() {
         String content = getContent();

@@ -24,7 +24,7 @@
                         <tbody>
                         <th:block th:each="answer : ${answers}">
                             <tr>
-                                <td th:text="${answer.getTopic().getTitle()}">Topic's title</td>
+                                <td th:text="${answer.getTopicTitle()}">Topic's title</td>
                                 <td th:text="${answer.displayBeginning()}">Topic's title</td>
                                 <td>
                                     <a th:href="@{'/topic/' + ${answer.getTopicId()}}" class="btn btn-floating pulse">

@@ -18,6 +18,7 @@ import org.springframework.web.servlet.view.RedirectView;
 import javax.servlet.http.HttpServletRequest;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
 @Controller
@@ -25,6 +26,8 @@ public class RegisterController {
 
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
+    private static final String DATE_FORMATTER= "yyyy-MM-dd HH:mm:ss";
+    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DATE_FORMATTER);
 
     @Autowired
     public RegisterController(UserRepository userRepository, PasswordEncoder passwordEncoder) {
@@ -51,14 +54,12 @@ public class RegisterController {
         User user = new User(null);
         if (userRepository.getUserByUsername(username) == null) {
             user.setUsername(username);
-            // I know that it can be blank field, but I did it on purpose to find out about Optionals:
             if (Objects.equals(introduction, ""))
                 user.setIntroduction("Your introduction");
             else
                 user.setIntroduction(introduction);
-            user.setPassword(password);
             user.setPassword(passwordEncoder.encode(password));
-            user.setCreatedDate(LocalDateTime.now());
+            user.setCreatedDate(LocalDateTime.now().format(formatter));
             userRepository.save(user);
             return new RedirectView(contextPath + "/login");
         } else

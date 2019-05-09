@@ -21,6 +21,7 @@ import org.springframework.web.servlet.view.RedirectView;
 import javax.servlet.http.HttpServletRequest;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
 @Controller
@@ -29,6 +30,8 @@ public class ProfileController {
     private final UserRepository userRepository;
     private final TopicRepository topicRepository;
     private final AnswerRepository answerRepository;
+    private static final String DATE_FORMATTER= "yyyy-MM-dd HH:mm:ss";
+    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DATE_FORMATTER);
 
     @Autowired
     public ProfileController(UserRepository userRepository, TopicRepository topicRepository, AnswerRepository answerRepository) {
@@ -77,21 +80,16 @@ public class ProfileController {
 
     @PostMapping("profile")
     public View addTask(@RequestParam("category") String category, @RequestParam("title") String title,
-                        @RequestParam("content") String content, @RequestParam("code") String code,
+                        @RequestParam("content") String content,
                         @RequestParam("id_user") String id_user, HttpServletRequest request) {
         Topic topic = new Topic(null);
         topic.setCategory(category);
 
-        // I know that it can be blank field, but I did it on purpose to find out about Optionals:
-        if (Objects.equals(code, ""))
-            topic.setCode(null);
-        else
-            topic.setCode(code);
-
         topic.setContent(content);
         topic.setTitle(title);
-        topic.setCreatedDate(LocalDateTime.now());
-        topic.setUserId(userRepository.getUserById(id_user));
+        topic.setCreatedDate(LocalDateTime.now().format(formatter).toString());
+        topic.setUserId(id_user);
+        topic.setUsername(userRepository.getUserById(id_user).getUsername());
 
         topicRepository.save(topic);
         String contextPath = request.getContextPath();

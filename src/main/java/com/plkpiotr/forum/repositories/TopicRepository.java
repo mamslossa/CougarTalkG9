@@ -58,11 +58,14 @@ public class TopicRepository {
 
             List<QueryDocumentSnapshot> documents = firestore.collection("topic").whereEqualTo("category", category).get().get().getDocuments();
             for (QueryDocumentSnapshot document : documents) {
-                list.add(new Topic(document.getData()));
+                Topic newTopic = new Topic(document.getData());
+
+                newTopic.setRealId(document.getId());
+                list.add(newTopic);
             }
             return list;
         } catch (Exception e) {
-
+            System.out.println(e.getMessage());
         }
         return null;
     }
@@ -73,10 +76,14 @@ public class TopicRepository {
 
             List<QueryDocumentSnapshot> documents = firestore.collection("topic").whereEqualTo("userid", userid).get().get().getDocuments();
             for (QueryDocumentSnapshot document : documents) {
-                list.add(new Topic(document.getData()));
+                Topic newTopic = new Topic(document.getData());
+
+                newTopic.setRealId(document.getId());
+                list.add(newTopic);
             }
             return list;
         } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
         return null;
     }
@@ -87,10 +94,14 @@ public class TopicRepository {
 
             List<QueryDocumentSnapshot> documents = firestore.collection("topic").get().get().getDocuments();
             for (QueryDocumentSnapshot document : documents) {
-                list.add(new Topic(document.getData()));
+                Topic newTopic = new Topic(document.getData());
+
+                newTopic.setRealId(document.getId());
+                list.add(newTopic);
             }
             return list;
         } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
         return null;
     }
@@ -99,21 +110,12 @@ public class TopicRepository {
 
         // Create a Map to store the data we want to set
         Map<String, Object> docData = new HashMap<>();
-
-        if (topic.getContent() != null)
-            docData.put("content", topic.getContent());
-
-        if (topic.getCreatedDate() != null)
-            docData.put("createdDate", topic.getCreatedDate());
-
-        if (topic.getCategory() != null)
-            docData.put("category", topic.getCategory());
-
-        if (topic.getTitle() != null)
-            docData.put("title", topic.getTitle());
-
-        if (topic.getUserId() != null)
-            docData.put("userid", topic.getUserId());
+        docData.put("content", topic.getContent());
+        docData.put("createdDate", topic.getCreatedDate());
+        docData.put("category", topic.getCategory());
+        docData.put("title", topic.getTitle());
+        docData.put("userid", topic.getUserId());
+        docData.put("username", topic.getUsername());
 
         firestore.collection("topic").add(docData);
 

@@ -12,9 +12,6 @@ import java.util.Optional;
 
 public class Topic {
 
-    private static final String DATE_FORMATTER= "yyyy-MM-dd HH:mm:ss";
-    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DATE_FORMATTER);
-
     public Topic(Map<String, Object> data) {
         if (data == null)
             _data = new HashMap<String, Object>();
@@ -23,9 +20,6 @@ public class Topic {
     }
 
     private Map<String, Object> _data;
-
-    @Column(length = 1024)
-    private String code;
 
     public void setRealId(String id) {
         _data.put("id", id);
@@ -59,30 +53,24 @@ public class Topic {
         _data.put("category", category);
     }
 
-    public LocalDateTime getCreatedDate() { if (_data.containsKey("createdDate")) return LocalDateTime.parse(_data.get("createdDate").toString(), formatter); return null; }
+    public String getCreatedDate() {
 
-    public void setCreatedDate(LocalDateTime createdDate) { _data.put("createdDate", createdDate.toString()); }
+    if (_data.containsKey("createdDate")) return _data.get("createdDate").toString(); return null; }
 
-    public Optional getCode() {
-        return Optional.ofNullable(code);
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
+    public void setCreatedDate(String createdDate) { _data.put("createdDate", createdDate); }
 
     public String getUserId() { if (_data.containsKey("userid")) return _data.get("userid").toString(); return null; }
 
-    public void setUserId(User userid) {
+    public void setUserId(String userid) {
         _data.put("userid", userid);
+    }
+
+    public String getUsername() { if (_data.containsKey("username")) return _data.get("username").toString(); return null; }
+
+    public void setUsername(String userid) {
+        _data.put("username", userid);
     }
 
     public String displayParsedCreatedDate() { if (_data.containsKey("createdDate")) return _data.get("createdDate").toString(); return null; }
 
-    public String displayCode() {
-        if (Optional.ofNullable(code).isPresent())
-            return Optional.ofNullable(code).get();
-        else
-            return "";
-    }
 }

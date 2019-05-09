@@ -3,16 +3,9 @@ package com.plkpiotr.forum.entities;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-
-import javax.persistence.*;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 public class User implements UserDetails {
-
-    private static final String DATE_FORMATTER= "yyyy-MM-dd HH:mm:ss";
-    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DATE_FORMATTER);
 
     public User(Map<String, Object> data) {
         if (data == null)
@@ -22,9 +15,6 @@ public class User implements UserDetails {
     }
 
 
-    private LocalDateTime createdDate;
-
-    @Transient
     private Map<String, Object> _data;
 
     public void setRealId(String id) {
@@ -88,12 +78,8 @@ public class User implements UserDetails {
         _data.put("introduction", introduction);
     }
 
-    public LocalDateTime getCreatedDate() { if (_data.containsKey("createdDate")) return LocalDateTime.parse(_data.get("createdDate").toString(), formatter); return null; }
+    public String getCreatedDate() { if (_data.containsKey("createdDate")) return _data.get("createdDate").toString(); return null; }
 
-    public void setCreatedDate(LocalDateTime createdDate) { _data.put("createdDate", createdDate.toString()); }
+    public void setCreatedDate(String createdDate) { _data.put("createdDate", createdDate); }
 
-    public String displayParsedDate() {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-        return this.createdDate.format(formatter);
-    }
 }

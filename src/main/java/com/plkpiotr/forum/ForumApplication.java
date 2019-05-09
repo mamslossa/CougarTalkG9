@@ -24,10 +24,14 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
+import java.time.format.DateTimeFormatter;
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class, DataSourceTransactionManagerAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
 public class ForumApplication {
+
+    private static final String DATE_FORMATTER= "yyyy-MM-dd HH:mm:ss";
+    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DATE_FORMATTER);
 
     @Bean
     public PasswordEncoder passwordEncoder() {
@@ -45,6 +49,7 @@ public class ForumApplication {
             FirebaseApp.initializeApp(options);
             return FirestoreClient.getFirestore();
         } catch(Exception e){
+            System.out.println(e.getMessage());
         }
         return null;
     }
@@ -64,15 +69,12 @@ public class ForumApplication {
         return new AnswerRepository();
     }
 
+    @Bean
+    public DateTimeFormatter dateTimeFormatter() {
+        return formatter; }
+
     public static void main(String[] args) {
 
         SpringApplication.run(ForumApplication.class, args);
-
-        try {
-
-
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
     }
 }

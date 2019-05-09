@@ -21,6 +21,7 @@ import org.springframework.web.servlet.view.RedirectView;
 import javax.servlet.http.HttpServletRequest;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Objects;
 
@@ -30,6 +31,8 @@ public class TopicController {
     private final UserRepository userRepository;
     private final TopicRepository topicRepository;
     private final AnswerRepository answerRepository;
+    private static final String DATE_FORMATTER= "yyyy-MM-dd HH:mm:ss";
+    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DATE_FORMATTER);
 
     @Autowired
     public TopicController(UserRepository userRepository, TopicRepository topicRepository, AnswerRepository answerRepository) {
@@ -45,7 +48,7 @@ public class TopicController {
         String idUser = userRepository.getUserByUsername(username).getId();
 
         Topic topic = topicRepository.findTopicById(id);
-        List<Answer> answers = answerRepository.findAnswerByTopic_Id(Long.valueOf(id));
+        List<Answer> answers = answerRepository.findAnswerByTopic_Id(id);
 
         model.addAttribute("topic", topic);
         model.addAttribute("answers", answers);
@@ -69,21 +72,17 @@ public class TopicController {
     }
 
     @PostMapping("topic")
-    public View addAnswer(@RequestParam("content") String content, @RequestParam("code") String code,
+    public View addAnswer(@RequestParam("content") String content,
                           @RequestParam("id_topic") String id_topic, @RequestParam("id_user") String id_user,
                           HttpServletRequest request) {
         Answer answer = new Answer(null);
         answer.setContent(content);
-
-        // I know that it can be blank field, but I did it on purpose to find out about Optionals:
-/*        if (Objects.equals(code, ""))
-            answer.setCode(null);
-        else
-            answer.setCode(code); */
-        answer.setCreatedDate(LocalDateTime.now());
+        answer.setCreatedDate(LocalDateTime.now().format(formatter));
         answer.setUseful(false);
         answer.setTopicId(id_topic);
         answer.setUserId(id_user);
+        answer.setUsername(userRepository.getUserById(id_user).getUsername());
+        answer.setTopicTitle(topicRepository.findTopicById(id_topic).getTitle());
 
         answerRepository.save(answer);
         String contextPath = request.getContextPath();
