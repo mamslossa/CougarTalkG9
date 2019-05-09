@@ -2,34 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45a22c13-2580-4c5f-895e-f59d062b2376" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/ForumApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/ForumApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/ProfileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/TopicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/TopicController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/TopicsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/controllers/TopicsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/entities/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/entities/Answer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/entities/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/entities/Topic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/entities/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/repositories/AnswerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/repositories/AnswerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/repositories/TopicRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/plkpiotr/forum/repositories/TopicRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/topics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/ForumApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/ForumApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/ProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/TopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/TopicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/TopicsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/TopicsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/Topic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/AnswerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/AnswerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/TopicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/TopicRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/answers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/answers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/topics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/offline.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/offline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/online.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/online.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,63 +31,42 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-            </state>
-          </provider>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/online.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612" />
+            <state relative-caret-position="295">
+              <caret line="51" column="81" selection-start-line="51" selection-start-column="81" selection-end-line="51" selection-end-column="81" />
+              <folding>
+                <element signature="e#2599#2605#0" expanded="true" />
+                <element signature="e#2606#2612#0" expanded="true" />
+                <element signature="e#2504#2510#0" expanded="true" />
+                <element signature="e#2511#2517#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/offline.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/answers.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/AnswerRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2380">
-              <caret line="142" column="56" selection-start-line="142" selection-start-column="56" selection-end-line="142" selection-end-column="56" />
+            <state relative-caret-position="322">
+              <caret line="44" column="81" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="81" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2137#2143#0" expanded="true" />
+                <element signature="e#2144#2150#0" expanded="true" />
+                <element signature="e#2160#2166#0" expanded="true" />
+                <element signature="e#2167#2173#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,6 +137,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/register.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/layout/offline.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/layout/online.html" />
       </list>
     </option>
   </component>
@@ -311,6 +274,46 @@
             <path>
               <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
               <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="plkpiotr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -325,14 +328,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
@@ -427,7 +422,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32998000" />
+    <option name="totallyTimeSpent" value="33132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,10 +434,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27986577" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -840,23 +835,41 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/offline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="44" column="81" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="81" />
+          <folding>
+            <element signature="e#2137#2143#0" expanded="true" />
+            <element signature="e#2144#2150#0" expanded="true" />
+            <element signature="e#2160#2166#0" expanded="true" />
+            <element signature="e#2167#2173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/online.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="51" column="81" selection-start-line="51" selection-start-column="81" selection-end-line="51" selection-end-column="81" />
+          <folding>
+            <element signature="e#2599#2605#0" expanded="true" />
+            <element signature="e#2606#2612#0" expanded="true" />
+            <element signature="e#2504#2510#0" expanded="true" />
+            <element signature="e#2511#2517#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
