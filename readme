@@ -1,13 +1,19 @@
-- Installer le openjdk11 (j'suis sur manjaro du coup je l'ai juste pacman)
-- Installer mariadb (de meme)
-    Pour terminer l'installation de mariadb executez les commandes suivantes :
-    sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-    sudo systemctl start mariadb
-    mysql_secure_installation
-    Mettez root en mdp pour l'user root je l'ai configuré comme ca dans l'application Spring
-- Ensuite vous vous loggez sur le server mysql
-mysql -u root -p
-- Puis vous créez la database forum
-CREATE DATABASE forum
+# Cougar Talk
 
-Ensuite vous pouvez importer le projet avec le fichier build.gradle et lancer l'application
+A student project for CSUSM CS_441 software engineering.
+
+## Installation
+
+Import from sources, then configure the project.
+
+The project was developed with JDK11.
+
+## Usage
+
+Launch the program and then go to www.https://localhost:8080
+to access the website
+
+Please make sure that you have a csusm student email to register to the website.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
