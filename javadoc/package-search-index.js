@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.cougartalk.forum"},{"l":"com.cougartalk.forum.configuration"},{"l":"com.cougartalk.forum.controllers"},{"l":"com.cougartalk.forum.entities"},{"l":"com.cougartalk.forum.repositories"}]

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="layout/online">
-<!--/*@thymesVar id="user" type="com.plkpiotr.forum.entities.User"*/-->
+<!--/*@thymesVar id="user" type="com.cougartalk.forum.entities.User"*/-->
 <head>
     <title th:text="${user.getUsername() + ' | JF'}">Title of profile view</title>
 </head>
@@ -20,7 +20,7 @@
                         <li class="collection-item">
                             <span class="badge">
                                 <span th:text="${user.getUsername()}">Nick</span>
-                            </span>Nick:
+                            </span>School Email:
                         </li>
                         <li class="collection-item">
                             <span class="badge">
@@ -63,7 +63,7 @@
             </section>
             <header class="row">
                 <div class="col s12">
-                    <blockquote class="flow-text left" th:text="|Select category and add topic: |">Add topic</blockquote>
+                    <blockquote class="flow-text left" th:text="|Select a category and add topic: |">Add topic</blockquote>
                 </div>
             </header>
             <section>
@@ -71,24 +71,24 @@
                     <div class="row">
                         <div class="col s12">
                             <p>
-                                <input value="se" name="category" class="with-gap" type="radio" id="se" required="required"/>
-                                <label for="se">Java Standard Edition</label>
+                                <input value="en" name="category" class="with-gap" type="radio" id="en" required="required"/>
+                                <label for="en">Entertainment</label>
                             </p>
                             <p>
-                                <input value="ee" name="category" class="with-gap" type="radio" id="ee" required="required"/>
-                                <label for="ee">Java Enterprise Edition</label>
+                                <input value="as" name="category" class="with-gap" type="radio" id="as" required="required"/>
+                                <label for="as">Associations</label>
                             </p>
                             <p>
-                                <input value="jpa" name="category" class="with-gap" type="radio" id="jpa" required="required"/>
-                                <label for="jpa">Java Persistence API and Hibernate</label>
+                                <input value="ev" name="category" class="with-gap" type="radio" id="ev" required="required"/>
+                                <label for="ev">Events</label>
                             </p>
                             <p>
-                                <input value="spring" name="category" class="with-gap" type="radio" id="spring" required="required"/>
-                                <label for="spring">Spring Framework</label>
+                                <input value="cl" name="category" class="with-gap" type="radio" id="cl" required="required"/>
+                                <label for="cl">Class and Homework</label>
                             </p>
                             <p>
-                                <input value="web" name="category" class="with-gap" type="radio" id="web" required="required"/>
-                                <label for="web">HTML/CSS/JavaScript</label>
+                                <input value="sp" name="category" class="with-gap" type="radio" id="sp" required="required"/>
+                                <label for="sp">Sport</label>
                             </p>
                         </div>
                     </div>

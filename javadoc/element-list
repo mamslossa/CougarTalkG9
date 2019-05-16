@@ -1,0 +1,5 @@
+com.cougartalk.forum
+com.cougartalk.forum.configuration
+com.cougartalk.forum.controllers
+com.cougartalk.forum.entities
+com.cougartalk.forum.repositories
