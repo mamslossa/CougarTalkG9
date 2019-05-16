@@ -39,7 +39,7 @@ public class Answer {
     /**
      * Sets the Id.
      *
-     * @param id : the desired id.
+     * @param id the string containing the desired id.
      */
     public void setRealId(String id) {
         _data.put("id", id);
@@ -55,7 +55,7 @@ public class Answer {
     /**
      * Sets the content.
      *
-     * @param content : the desired content.
+     * @param content the string containing the desired content.
      */
     public void setContent(String content) {
         _data.put("content", content);
@@ -72,7 +72,7 @@ public class Answer {
     /**
      * Sets the useful rating.
      *
-      * @param useful : the desired usefulness.
+      * @param useful the string containing the desired usefulness.
      */
     public void setUseful(boolean useful) {
         _data.put("useful", useful);
@@ -88,7 +88,7 @@ public class Answer {
     /**
      * Sets the creation date.
      *
-     * @param createdDate : the designed creation date.
+     * @param createdDate the string containing the designed creation date.
      */
     public void setCreatedDate(String createdDate) { _data.put("createdDate", createdDate); }
 
@@ -102,7 +102,7 @@ public class Answer {
     /**
      * Sets the user Id.
      *
-     * @param userid : the actual user Id.
+     * @param userid the string containing the actual user Id.
      */
     public void setUserId(String userid) {
         _data.put("userid", userid);
@@ -118,7 +118,7 @@ public class Answer {
     /**
      * Sets the username.
      *
-     * @param username : the desired username.
+     * @param username the string containing the desired username.
      */
     public void setUsername(String username) {
         _data.put("username", username);
@@ -134,7 +134,7 @@ public class Answer {
     /**
      * Sets the topic Id.
      *
-     * @param topicId : the desired topic id.
+     * @param topicId the string containing the desired topic id.
      */
     public void setTopicId(String topicId) { _data.put("topicid", topicId); }
 
@@ -148,7 +148,7 @@ public class Answer {
     /**
      * Sets the topic title.
      *
-     * @param topicTitle : the desired topic title.
+     * @param topicTitle the string containing the desired topic title.
      */
     public void setTopicTitle(String topicTitle) { _data.put("topictitle", topicTitle); }
 
