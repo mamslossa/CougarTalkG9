@@ -20,7 +20,7 @@
                         <li class="collection-item">
                             <span class="badge">
                                 <span th:text="${user.getUsername()}">Nick</span>
-                            </span>Nick:
+                            </span>School Email:
                         </li>
                         <li class="collection-item">
                             <span class="badge">
@@ -63,13 +63,13 @@
             </section>
             <header class="row">
                 <div class="col s12">
-                    <blockquote class="flow-text left" th:text="|Select category and add topic: |">Add topic</blockquote>
+                    <blockquote class="flow-text left" th:text="|Add topic: |">Add topic</blockquote>
                 </div>
             </header>
             <section>
                 <form th:action="@{/profile}" method="post">
                     <div class="row">
-                        <div class="col s12">
+                       <!-- <div class="col s12">
                             <p>
                                 <input value="se" name="category" class="with-gap" type="radio" id="se" required="required"/>
                                 <label for="se">Java Standard Edition</label>
@@ -90,7 +90,7 @@
                                 <input value="web" name="category" class="with-gap" type="radio" id="web" required="required"/>
                                 <label for="web">HTML/CSS/JavaScript</label>
                             </p>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="row">
                         <div class="col s12">

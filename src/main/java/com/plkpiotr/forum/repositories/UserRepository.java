@@ -65,7 +65,8 @@ public class UserRepository  {
 
         // Create a Map to store the data we want to set
         Map<String, Object> docData = new HashMap<>();
-        docData.put("username", user.getUsername());
+        if (user.getUsername().endsWith("@cougars.csusm.edu"))
+            docData.put("username", user.getUsername());
         if (user.getIntroduction() != null)
             docData.put("introduction", user.getIntroduction());
         docData.put("password", user.getPassword());
