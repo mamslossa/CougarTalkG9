@@ -1,6 +1,6 @@
-package com.plkpiotr.forum.configuration;
+package com.cougartalk.forum.configuration;
 
-import com.plkpiotr.forum.repositories.UserRepository;
+import com.cougartalk.forum.repositories.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

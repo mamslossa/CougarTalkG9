@@ -1,17 +1,13 @@
-package com.plkpiotr.forum;
+package com.cougartalk.forum;
 
-import com.google.api.core.ApiFuture;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.cloud.firestore.Firestore;
-import com.google.cloud.firestore.QueryDocumentSnapshot;
-import com.google.cloud.firestore.QuerySnapshot;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 import com.google.firebase.cloud.FirestoreClient;
-import com.plkpiotr.forum.repositories.AnswerRepository;
-import com.plkpiotr.forum.repositories.TopicRepository;
-import com.plkpiotr.forum.repositories.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.cougartalk.forum.repositories.AnswerRepository;
+import com.cougartalk.forum.repositories.TopicRepository;
+import com.cougartalk.forum.repositories.UserRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

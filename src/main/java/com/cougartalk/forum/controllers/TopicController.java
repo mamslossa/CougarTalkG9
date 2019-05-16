@@ -1,10 +1,10 @@
-package com.plkpiotr.forum.controllers;
+package com.cougartalk.forum.controllers;
 
-import com.plkpiotr.forum.entities.Answer;
-import com.plkpiotr.forum.entities.Topic;
-import com.plkpiotr.forum.repositories.AnswerRepository;
-import com.plkpiotr.forum.repositories.TopicRepository;
-import com.plkpiotr.forum.repositories.UserRepository;
+import com.cougartalk.forum.entities.Topic;
+import com.cougartalk.forum.repositories.AnswerRepository;
+import com.cougartalk.forum.repositories.TopicRepository;
+import com.cougartalk.forum.repositories.UserRepository;
+import com.cougartalk.forum.entities.Answer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -23,7 +23,6 @@ import javax.servlet.http.HttpServletRequest;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
-import java.util.Objects;
 
 @Controller
 public class TopicController {

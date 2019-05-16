@@ -1,4 +1,4 @@
-package com.plkpiotr.forum.entities;
+package com.cougartalk.forum.entities;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

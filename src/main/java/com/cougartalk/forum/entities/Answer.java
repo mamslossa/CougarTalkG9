@@ -1,4 +1,4 @@
-package com.plkpiotr.forum.entities;
+package com.cougartalk.forum.entities;
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import org.springframework.stereotype.Component;

@@ -1,10 +1,9 @@
-package com.plkpiotr.forum.repositories;
+package com.cougartalk.forum.repositories;
 
 import com.google.cloud.firestore.FieldPath;
 import com.google.cloud.firestore.Firestore;
 import com.google.cloud.firestore.QueryDocumentSnapshot;
-import com.plkpiotr.forum.entities.Answer;
-import com.plkpiotr.forum.entities.Topic;
+import com.cougartalk.forum.entities.Answer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Component;

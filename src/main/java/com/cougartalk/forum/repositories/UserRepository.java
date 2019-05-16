@@ -1,8 +1,8 @@
-package com.plkpiotr.forum.repositories;
+package com.cougartalk.forum.repositories;
 
+import com.cougartalk.forum.entities.User;
 import com.google.api.core.ApiFuture;
 import com.google.cloud.firestore.*;
-import com.plkpiotr.forum.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

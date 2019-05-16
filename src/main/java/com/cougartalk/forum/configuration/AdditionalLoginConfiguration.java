@@ -1,4 +1,4 @@
-package com.plkpiotr.forum.configuration;
+package com.cougartalk.forum.configuration;
 
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;

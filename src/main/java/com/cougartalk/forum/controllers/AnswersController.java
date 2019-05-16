@@ -1,7 +1,7 @@
-package com.plkpiotr.forum.controllers;
+package com.cougartalk.forum.controllers;
 
-import com.plkpiotr.forum.entities.Answer;
-import com.plkpiotr.forum.repositories.AnswerRepository;
+import com.cougartalk.forum.repositories.AnswerRepository;
+import com.cougartalk.forum.entities.Answer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
