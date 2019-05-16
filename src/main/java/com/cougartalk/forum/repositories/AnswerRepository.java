@@ -19,6 +19,12 @@ public class AnswerRepository {
     @Autowired
     private Firestore firestore;
 
+    /**
+     * Sets the usefulness of an answer.
+     *
+     * @param bool the boolean meaning if it is usefull or not, true for usefull and false for not usefull.
+     * @param id the string containing the document id.
+     */
     public void setUsefulForAnswer(@Param("bool") Boolean bool, @Param("id") String id) {
         try {
             List<QueryDocumentSnapshot> documents = firestore.collection("answer").whereEqualTo(FieldPath.documentId(), id).get().get().getDocuments();
@@ -31,10 +37,22 @@ public class AnswerRepository {
         }
     };
 
+    /**
+     * Method that deletes an answer by its id.
+     *
+     * @param id the string containing the answer id.
+     */
     public void deleteAnswerById(String id) {
         firestore.collection("answer").document(id).delete();
     }
 
+    /**
+     * Counts how many answers have a user by the user id.
+     *
+     * @param id the string containing the user id.
+     *
+     * @return {@code int} the answer quantity, 0 if none.
+     */
     public int countAnswersByUser_Id(String id) {
         try {
             int size = firestore.collection("answer").whereEqualTo("userid", id).get().get().getDocuments().size();
@@ -48,6 +66,14 @@ public class AnswerRepository {
 
     }
 
+    /**
+     * Counts how many usefull answers have a user by the user id.
+     *
+     * @param id the string containing the user id.
+     * @param useful the boolean telling that the answer must be usefull.
+     *
+     * @return {@code int} the useful answer quantity, 0 if none.
+     */
     public int countAnswersByUser_IdAndUseful(String id, boolean useful) {
         try {
             int size = firestore.collection("answer").whereEqualTo("userid", id).whereEqualTo("useful", useful).get().get().getDocuments().size();
@@ -60,6 +86,13 @@ public class AnswerRepository {
         return 0;
     }
 
+    /**
+     * Counts how many answers have a topic by the topic id.
+     *
+     * @param id the string containing the topic id.
+     *
+     * @return {@code int} the answer quantity, 0 if none.
+     */
     public int countAnswersByTopic_Id(String id) {
         try {
             int size = firestore.collection("answer").whereEqualTo("topicid", id).get().get().getDocuments().size();
@@ -72,6 +105,13 @@ public class AnswerRepository {
         return 0;
     }
 
+    /**
+     * Gets the answers from an user and sort it in a descending order by creation date.
+     *
+     * @param id the string containing the user id.
+     *
+     * @return {@code List<Answer>} of answer in descending order if it is non-null, {@code ""} null otherwise.
+     */
     public List<Answer> findAnswerByUser_IdOrderByCreatedDateDesc(String id) {
         try {
             List<Answer> list = new Vector<>();
@@ -90,6 +130,14 @@ public class AnswerRepository {
         return null;
     }
 
+    /**
+     * Gets the useful answers from an user and sort it in a descending order by creation date.
+     *
+     * @param id the string containing the user id.
+     * @param useful the boolean telling that the answer must be usefull.
+     *
+     * @return {@code List<Answer>} of useful answer in descending order if it is non-null, {@code ""} null otherwise.
+     */
     public List<Answer> findAnswerByUser_IdAndUsefulOrderByCreatedDateDesc(String id, boolean useful) {
         try {
             List<Answer> list = new Vector<>();
@@ -109,6 +157,13 @@ public class AnswerRepository {
         return null;
     }
 
+    /**
+     * Gets answers by a topic id.
+     *
+     * @param id String containing the topic id.
+     *
+     * @return {@code List<answer>} the answer List, 0 if none.
+     */
     public List<Answer> findAnswerByTopic_Id(String id) {
         try {
             List<Answer> list = new Vector<>();
@@ -128,6 +183,11 @@ public class AnswerRepository {
         return null;
     }
 
+    /**
+     * Add an answer.
+     *
+     * @param answer the Answer object containing the answer data.
+     */
     public void save(Answer answer) {
 
         // Create a Map to store the data we want to set

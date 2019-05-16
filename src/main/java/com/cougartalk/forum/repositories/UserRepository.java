@@ -16,6 +16,13 @@ public class UserRepository  {
     @Autowired
     private Firestore firestore;
 
+    /**
+     * Get the user by its username
+     *
+     * @param username the String containing the username.
+     *
+     * @return {@code User} the user, {@code ""} null if none.
+     */
     public User getUserByUsername(String username) {
         try {
             ApiFuture<QuerySnapshot> query = firestore.collection("user").whereEqualTo("username", username).get();
@@ -38,6 +45,13 @@ public class UserRepository  {
         return null;
     }
 
+    /**
+     * Get the user by its username
+     *
+     * @param Id the String containing the user id.
+     *
+     * @return {@code User} the user, {@code ""} null if none.
+     */
     public User getUserById(String Id) {
 
         try {
@@ -57,10 +71,20 @@ public class UserRepository  {
         return null;
     }
 
+    /**
+     * Get all the users
+     *
+     * @return {@code List<User>} all the users, {@code ""} null if error.
+     */
     public List<User> findAll() {
         return null;
     }
 
+    /**
+     * Add the user in the database.
+     *
+     * @param user the User object containing the user data.
+     */
     public void save(User user) {
 
         // Create a Map to store the data we want to set
@@ -85,6 +109,13 @@ public class UserRepository  {
         nativeQuery = true
     ) */
 
+    /**
+     * Get the user's points.
+     *
+     * @param id the String containing the user id.
+     *
+     * @return {@code Long} the points.
+     */
     public Long getPoints(String id) {
         return 1L;
     }

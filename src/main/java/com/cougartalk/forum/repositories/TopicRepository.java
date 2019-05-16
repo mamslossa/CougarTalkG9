@@ -20,6 +20,13 @@ public class TopicRepository {
     @Autowired
     private Firestore firestore;
 
+    /**
+     * Gets the amount of topics for a user id.
+     *
+     * @param id the string containing the user id.
+     *
+     * @return {@code int} the amount of answer.
+     */
     public int countTopicsByUser_Id(String id) {
 
         try {
@@ -36,6 +43,13 @@ public class TopicRepository {
         return 0;
     }
 
+    /**
+     * Get the topic by its id.
+     *
+     * @param id the string containing the topic id.
+     *
+     * @return {@code Topic} the topic, {@code ""} null if error.
+     */
     public Topic findTopicById(String id) {
         try {
             List<QueryDocumentSnapshot> documents = firestore.collection("topic").whereEqualTo(FieldPath.documentId(), id).get().get().getDocuments();
@@ -52,6 +66,13 @@ public class TopicRepository {
         return null;
     }
 
+    /**
+     * Get topics by its category and sorted by creation date descending.
+     *
+     * @param category the String containing the topics.
+     *
+     * @return {@code List<Topic>} of the topics, {@code ""} null if error.
+     */
     public List<Topic> findTopicsByCategoryOrderByCreatedDateDesc(String category) {
         try {
             List<Topic> list = new Vector<>();
@@ -70,6 +91,13 @@ public class TopicRepository {
         return null;
     }
 
+    /**
+     * Get topics by its category and sorted by creation date descending.
+     *
+     * @param userid the String containing the userid.
+     *
+     * @return {@code List<Topic>} of the topics, {@code ""} null if error.
+     */
     public List<Topic> findTopicsByUser_IdOrderByCreatedDateDesc(String userid) {
         try {
             List<Topic> list = new Vector<>();
@@ -88,6 +116,11 @@ public class TopicRepository {
         return null;
     }
 
+    /**
+     * Gets all the topics.
+     *
+     * @return {@code List<Topic>} containing all the topics, {@code ""} null if error.
+     */
     public List<Topic> findAll() {
         try {
             List<Topic> list = new Vector<>();
@@ -106,6 +139,11 @@ public class TopicRepository {
         return null;
     }
 
+    /**
+     * Add the topic in the database.
+     *
+     * @param topic the Topic object containing the user data.
+     */
     public void save(Topic topic) {
 
         // Create a Map to store the data we want to set

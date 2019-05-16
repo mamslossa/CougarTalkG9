@@ -1,7 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="45a22c13-2580-4c5f-895e-f59d062b2376" name="Default Changelist" comment="" />
+    <list default="true" id="45a22c13-2580-4c5f-895e-f59d062b2376" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/ForumApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/ForumApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/configuration/AdditionalLoginConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/configuration/AdditionalLoginConfiguration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/configuration/SecurityConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/configuration/SecurityConfiguration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/configuration/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/configuration/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/configuration/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/configuration/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/AnswersController.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/AnswersController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/IndexController.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/IndexController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/LoginController.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/LoginController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/ProfileController.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/ProfileController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/RegisterController.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/RegisterController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/TopicController.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/TopicController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/TopicsController.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/TopicsController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/entities/Answer.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/entities/Answer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/entities/Topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/entities/Topic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/entities/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/entities/User.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/entities/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/entities/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/entities/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/entities/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/repositories/AnswerRepository.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/repositories/AnswerRepository.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/repositories/TopicRepository.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/repositories/TopicRepository.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/repositories/UserRepository.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/repositories/UserRepository.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/repositories/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/repositories/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/repositories/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/cougartalk/forum/repositories/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/member-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/package-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/type-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/AnswerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/AnswerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/TopicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/TopicRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/UserRepository.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,72 +83,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/entities/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="59">
+              <caret line="71" column="82" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/AnswerRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="164" column="63" lean-forward="true" selection-start-line="164" selection-start-column="15" selection-end-line="164" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="86" selection-end-column="7" />
+              <folding>
+                <element signature="e#2209#2210#0" expanded="true" />
+                <element signature="e#2236#2237#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/TopicRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-99">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="122">
+              <caret line="144" column="29" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/online.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-end-line="40" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/offline.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="33" column="22" selection-start-line="33" selection-end-line="33" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/cougartalk-f9536-firebase-adminsdk-5k9js-98de235d79.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/css/materialize.css">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -152,11 +184,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/answers.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/TopicRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/repositories/AnswerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/register.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout/online.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout/offline.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cougartalk/forum/entities/Topic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cougartalk/forum/entities/Answer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cougartalk/forum/entities/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/AnswerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/TopicRepository.java" />
       </list>
     </option>
   </component>
@@ -176,6 +214,102 @@
             <path>
               <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
               <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CougarTalkG9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CougarTalkG9" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,7 +439,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557888072776" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557986280270" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -335,7 +469,7 @@
   <component name="RunManager">
     <configuration name="ForumApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="com.plkpiotr.CougarTalkG9.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.plkpiotr.forum.ForumApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cougartalk.forum.ForumApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -359,6 +493,8 @@
       <workItem from="1555360517468" duration="261000" />
       <workItem from="1555536648758" duration="9000" />
       <workItem from="1557514883253" duration="392000" />
+      <workItem from="1557934256023" duration="1626000" />
+      <workItem from="1557967103952" duration="11172000" />
     </task>
     <task id="LOCAL-00001" summary="add copyrights">
       <created>1557440794765</created>
@@ -367,11 +503,39 @@
       <option name="project" value="LOCAL" />
       <updated>1557440794766</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added logo in footer">
+      <created>1557889542094</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557889542094</updated>
+    </task>
+    <task id="LOCAL-00003" summary="color theme changed">
+      <created>1557936796134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557936796135</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add javadoc &amp; some comments to be completed">
+      <created>1557977177871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557977177871</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add some missing comments">
+      <created>1557980357163</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557980357163</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37717000" />
+    <option name="totallyTimeSpent" value="51215000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,8 +548,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -396,7 +561,7 @@
       <window_info id="Azure Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8941842" weight="0.32846716" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8941842" visible="true" weight="0.32846716" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49944934" weight="0.39933994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,11 +570,11 @@
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49919224" weight="0.32846716" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.27722773" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.105815835" side_tool="true" visible="true" weight="0.32846716" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.10662359" side_tool="true" weight="0.32846716" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32893288" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49919224" weight="0.32846716" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.329927" />
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="16" />
       <window_info anchor="bottom" id="Azure Activity Log" order="17" />
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="18" />
@@ -475,95 +640,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add copyrights" />
-    <option name="LAST_COMMIT_MESSAGE" value="add copyrights" />
+    <MESSAGE value="added logo in footer" />
+    <MESSAGE value="color theme changed" />
+    <MESSAGE value="Add javadoc &amp; some comments to be completed" />
+    <MESSAGE value="Add some missing comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some missing comments" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cougartalk-f9536-firebase-adminsdk-5k9js-3867d00dea.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.11.7.RELEASE/895798b9f80b1049bde582550b729153906b5194/spring-data-jpa-1.11.7.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.13.7.RELEASE/2f57d3f01ebd4667a6e8654e7ff7ec66742729be/spring-data-commons-1.13.7.RELEASE-sources.jar!/org/springframework/data/repository/NoRepositoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.11.RELEASE/430d9b461e5bc167ffe8f098e85e0d7284b30d78/spring-beans-4.3.11.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cougartalk-f9536-firebase-adminsdk-5k9js-98de235d79.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-oauth2-http/0.11.0/7b6c76e48114bdca75c1a7105b328b67e1d68c/google-auth-library-oauth2-http-0.11.0-sources.jar!/com/google/auth/oauth2/GoogleCredentials.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="152" column="60" lean-forward="true" selection-start-line="152" selection-start-column="60" selection-end-line="152" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-admin/6.8.0/53aa8b1da8f8d9dc0e0b621496b8fec991c4c450/firebase-admin-6.8.0-sources.jar!/com/google/firebase/cloud/FirestoreClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#3197#3198#0" expanded="true" />
-            <element signature="e#3253#3254#0" expanded="true" />
-            <element signature="e#3843#3844#0" expanded="true" />
-            <element signature="e#3886#3887#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/9c8493c7991464839b612d7547d6c263adf08f75/guava-20.0-sources.jar!/com/google/common/base/Preconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="771" selection-start-line="771" selection-end-line="771" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-admin/6.8.0/53aa8b1da8f8d9dc0e0b621496b8fec991c4c450/firebase-admin-6.8.0-sources.jar!/com/google/firebase/FirebaseApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-          <folding>
-            <element signature="e#5166#5167#0" expanded="true" />
-            <element signature="e#8073#8074#0" expanded="true" />
-            <element signature="e#8130#8131#0" expanded="true" />
-            <element signature="e#10415#10416#0" expanded="true" />
-            <element signature="e#10457#10458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/configuration/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.11.RELEASE/430d9b461e5bc167ffe8f098e85e0d7284b30d78/spring-beans-4.3.11.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -770,27 +853,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/ForumApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/cougartalk-f9536-firebase-adminsdk-5k9js-98de235d79.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/online.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="624">
+          <caret line="39" column="83" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="83" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="160">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -802,29 +886,237 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/css/materialize.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/controllers/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="9312">
+          <caret line="582" column="27" selection-start-line="582" selection-start-column="20" selection-end-line="582" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/ForumApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/configuration/AdditionalLoginConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/configuration/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/offline.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="33" column="22" selection-start-line="33" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="160">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/plkpiotr/forum/cougartalk-f9536-firebase-adminsdk-5k9js-98de235d79.json">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/controllers/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javadoc/com/cougartalk/forum/controllers/AnswersController.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4041" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/controllers/AnswersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javadoc/com/cougartalk/forum/entities/Answer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#2740#2746#0" expanded="true" />
+            <element signature="e#3357#3363#0" expanded="true" />
+            <element signature="e#3379#3385#0" expanded="true" />
+            <element signature="e#3386#3392#0" expanded="true" />
+            <element signature="e#3407#3413#0" expanded="true" />
+            <element signature="e#3414#3420#0" expanded="true" />
+            <element signature="e#3471#3477#0" expanded="true" />
+            <element signature="e#3478#3484#0" expanded="true" />
+            <element signature="e#3577#3583#0" expanded="true" />
+            <element signature="e#3598#3604#0" expanded="true" />
+            <element signature="e#3605#3611#0" expanded="true" />
+            <element signature="e#3661#3667#0" expanded="true" />
+            <element signature="e#3668#3674#0" expanded="true" />
+            <element signature="e#3863#3869#1" expanded="true" />
+            <element signature="e#4168#4174#1" expanded="true" />
+            <element signature="e#5015#5021#1" expanded="true" />
+            <element signature="e#5324#5328#0" expanded="true" />
+            <element signature="e#5368#5372#0" expanded="true" />
+            <element signature="e#5372#5378#0" expanded="true" />
+            <element signature="e#5416#5422#1" expanded="true" />
+            <element signature="e#5767#5773#1" expanded="true" />
+            <element signature="e#5902#5908#1" expanded="true" />
+            <element signature="e#6037#6043#1" expanded="true" />
+            <element signature="e#9651#9657#0" expanded="true" />
+            <element signature="e#9991#9997#0" expanded="true" />
+            <element signature="e#10331#10337#0" expanded="true" />
+            <element signature="e#10653#10659#0" expanded="true" />
+            <element signature="e#10992#10998#0" expanded="true" />
+            <element signature="e#11311#11317#0" expanded="true" />
+            <element signature="e#11646#11652#0" expanded="true" />
+            <element signature="e#11979#11985#0" expanded="true" />
+            <element signature="e#12241#12247#0" expanded="true" />
+            <element signature="e#12812#12818#0" expanded="true" />
+            <element signature="e#12845#12849#0" expanded="true" />
+            <element signature="e#12889#12893#0" expanded="true" />
+            <element signature="e#12893#12899#0" expanded="true" />
+            <element signature="e#13253#13259#0" expanded="true" />
+            <element signature="e#13275#13281#0" expanded="true" />
+            <element signature="e#13671#13677#0" expanded="true" />
+            <element signature="e#13681#13687#0" expanded="true" />
+            <element signature="e#13720#13726#0" expanded="true" />
+            <element signature="e#14034#14040#0" expanded="true" />
+            <element signature="e#14056#14062#0" expanded="true" />
+            <element signature="e#14464#14470#0" expanded="true" />
+            <element signature="e#14474#14480#0" expanded="true" />
+            <element signature="e#14514#14520#0" expanded="true" />
+            <element signature="e#14844#14850#0" expanded="true" />
+            <element signature="e#14857#14863#0" expanded="true" />
+            <element signature="e#15234#15240#0" expanded="true" />
+            <element signature="e#15244#15250#0" expanded="true" />
+            <element signature="e#15274#15280#0" expanded="true" />
+            <element signature="e#15623#15629#0" expanded="true" />
+            <element signature="e#15645#15651#0" expanded="true" />
+            <element signature="e#16072#16078#0" expanded="true" />
+            <element signature="e#16082#16088#0" expanded="true" />
+            <element signature="e#16126#16132#0" expanded="true" />
+            <element signature="e#16479#16485#0" expanded="true" />
+            <element signature="e#16501#16507#0" expanded="true" />
+            <element signature="e#16907#16913#0" expanded="true" />
+            <element signature="e#16917#16923#0" expanded="true" />
+            <element signature="e#16956#16962#0" expanded="true" />
+            <element signature="e#17289#17295#0" expanded="true" />
+            <element signature="e#17311#17317#0" expanded="true" />
+            <element signature="e#17724#17730#0" expanded="true" />
+            <element signature="e#17734#17740#0" expanded="true" />
+            <element signature="e#17775#17781#0" expanded="true" />
+            <element signature="e#18113#18119#0" expanded="true" />
+            <element signature="e#18135#18141#0" expanded="true" />
+            <element signature="e#18545#18551#0" expanded="true" />
+            <element signature="e#18555#18561#0" expanded="true" />
+            <element signature="e#18595#18601#0" expanded="true" />
+            <element signature="e#18937#18943#0" expanded="true" />
+            <element signature="e#18959#18965#0" expanded="true" />
+            <element signature="e#19381#19387#0" expanded="true" />
+            <element signature="e#19391#19397#0" expanded="true" />
+            <element signature="e#19434#19440#0" expanded="true" />
+            <element signature="e#19810#19816#0" expanded="true" />
+            <element signature="e#19832#19838#0" expanded="true" />
+            <element signature="e#20268#20274#0" expanded="true" />
+            <element signature="e#20290#20296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/entities/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+          <folding>
+            <element signature="e#2076#2077#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+            <element signature="e#2691#2692#0" expanded="true" />
+            <element signature="e#3022#3023#0" expanded="true" />
+            <element signature="e#3069#3070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/entities/Topic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#2092#2093#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#2496#2497#0" expanded="true" />
+            <element signature="e#2541#2542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="71" column="82" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javadoc/com/cougartalk/forum/repositories/AnswerRepository.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/online.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/AnswerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="206">
+          <caret line="164" column="63" lean-forward="true" selection-start-line="164" selection-start-column="15" selection-end-line="164" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="86" selection-end-column="7" />
+          <folding>
+            <element signature="e#2209#2210#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cougartalk/forum/repositories/TopicRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="144" column="29" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
         </state>
       </provider>
     </entry>
